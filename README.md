@@ -1,1 +1,1 @@
-# course-html-css
+# HTML / CSS
