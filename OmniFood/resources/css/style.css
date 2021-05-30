@@ -7,13 +7,15 @@
   box-sizing: border-box;
 }
 
-html{
+html,
+body{
   background-color: #fff;
   color:#555;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 .clearfix{zoom:1}
@@ -33,13 +35,9 @@ html{
   margin: 0 auto;
 }
 
-section{
-  padding: 80px 0px;
-}
+section{ padding: 80px 0px; }
 
-.box{
-  padding: 1%;
-}
+.box{ padding: 1%; }
 
 /*--------HEADINGS--------*/
 h1, h2,h3{
@@ -162,9 +160,7 @@ input[type=submit]{
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
-input[type=submit]:active{
-  background-color: #cf6d17;
-}
+input[type=submit]:active{ background-color: #cf6d17; }
  
 .btn-full:hover,
 .btn-full:active{
@@ -226,23 +222,17 @@ header{
   transform: border-bottom 0.2s;
 }
 .main-nav li a:hover,
-.main-navli a:active{
-  border-bottom:  2px solid #e67e22;
-}
+.main-navli a:active{ border-bottom:  2px solid #e67e22; }
 
 /*---------------------------------
             FEATURES
 ---------------------------------*/
-.section-features .long-copy{
-  margin-bottom: 30px;
-}
+.section-features .long-copy{ margin-bottom: 30px; }
 
 /*---------------------------------
             MEALS
 ---------------------------------*/
-.section-meals{
-  padding: 0;
-}
+.section-meals{ padding: 0; }
 
 .meals-showcase{
   list-style: none;
@@ -280,9 +270,7 @@ header{
 /*---------------------------------
             HOW IT WORKS
 ---------------------------------*/
-.section-steps{
-  background-color: #f4f4f4;
-}
+.section-steps{ background-color: #f4f4f4; }
 
 .col1{
   text-align: right;
@@ -295,17 +283,11 @@ header{
   margin-top: 70px;
 }
 
-.app-screen{
-  width: 40%;
-}
+.app-screen{ width: 40%; }
 
-.works-step{
-  margin-bottom: 50px;
-}
+.works-step{ margin-bottom: 50px; }
 
-.works-step:last-of-type{
-  margin-bottom: 80px;
-}
+.works-step:last-of-type{ margin-bottom: 80px; }
 
 .works-step div{
   color: #e67e22;
@@ -323,9 +305,7 @@ header{
 }
 
 .btn-app:link,
-.btn-app:visited{
-  border:0;
-}
+.btn-app:visited{ border:0; }
 
 .btn-app img{
   height: 50px;
@@ -342,9 +322,7 @@ header{
   margin-bottom: 15px;
 }
 
-.city-feature{
-  margin-bottom: 5px;
-}
+.city-feature{ margin-bottom: 5px; }
 
 /*---------------------------------
             TESIMONIALS
@@ -355,6 +333,7 @@ header{
   color: #fff;
   background-attachment: fixed;
 }
+
 blockquote{
   padding: 2%;
   font-style: italic;
@@ -389,9 +368,7 @@ cite img{
             SIGN UP
 ---------------------------------*/
 
-.section-plans{
-  background-color: #f4f4f4;
-}
+.section-plans{ background-color: #f4f4f4; }
 
 .plan-box{
   background-color: #fff;
@@ -428,18 +405,11 @@ cite img{
   font-weight: 300;
 }
 
-.plan-price-meal{
-  font-size:80%;
+.plan-price-meal{ font-size:80%; }
 
-}
+.plan-box ul{ list-style: none; }
 
-.plan-box ul{
-  list-style: none;
-}
-
-.plan-box ul li{
-  padding: 5px 0;
-}
+.plan-box ul li{ padding: 5px 0; }
 
 /*---------------------------------
             FORM
@@ -449,6 +419,7 @@ cite img{
   width: 60%;
   margin: 0 auto;
 }
+
 input[type=text],
 input[type=email],
 select,
@@ -459,15 +430,11 @@ textarea{
   border: 1px solid #ccc;
 }
 
-textarea{
-  height:100px;
-}
+textarea{ height:100px; }
 
-input[type=checkbox]{
-  margin: 10px 5px 10px 0;
-}
+input[type=checkbox]{ margin: 10px 5px 10px 0; }
 
-*:focus{outline: none;}
+*:focus{ outline: none; }
 
 /*---------------------------------
             FOOTER
@@ -495,9 +462,7 @@ footer{
 }
 
 .footer-nav li:last-child,
-.social-links li:last-child{
-  margin-right: 0px;
-}
+.social-links li:last-child{ margin-right: 0px; }
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
@@ -510,22 +475,14 @@ footer{
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active{
-   color: #ddd;
-}
+.footer-nav li a:active{ color: #ddd; }
 
 .social-links li a:link,
-.social-links li a:visited{
-  font-size: 150%;
-}
+.social-links li a:visited{ font-size: 150%; }
 
-.social-links li a ion-icon{
-  transition: color 0.2s;
-}
+.social-links li a ion-icon{ transition: color 0.2s; }
 
-.social-links li a ion-icon:hover{
-  color: #ddd;
-}
+.social-links li a ion-icon:hover{ color: #ddd; }
 
 footer p{
   color: rgb(156, 156, 156);
