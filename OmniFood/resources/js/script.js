@@ -55,4 +55,22 @@ $(document).ready(function(){
     }, {
         offset: '50%;'
     });
+
+    $('.js--nav-icon').click(function(){
+
+        var icon = $('.js--nav-icon ion-icon');
+        var nav = $('.js--main-nav');
+ 
+        nav.slideToggle(200);
+
+        if (icon.attr('name') == 'menu-outline') 
+        {
+            icon.attr('name', 'close-outline');
+        }
+        else if (icon.attr('name') == 'close-outline') 
+        {
+            icon.attr('name', 'menu-outline');
+        }
+
+    });
 });
