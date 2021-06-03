@@ -244,9 +244,9 @@ header{
   z-index: 9999;
 }
 
-.stiky .main-nav{ margin-top: 18px; }
+.sticky .main-nav{ margin-top: 18px; }
 
-.stiky .cmain-nav li a:link,
+.sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
   padding: 16px 0;
   color: #555;
@@ -521,4 +521,19 @@ footer p{
   margin-top: 20px;
 }
 
+/*---------------------------------
+            ANIMATIONS
+---------------------------------*/
 
+.js--wp-1,
+.js--wp-2,
+.js--wp-3{
+  opacity: 0;
+  animation-duration: 2s;
+}
+
+.js--wp-1.animate,
+.js--wp-2.animate,
+.js--wp-3.animate{
+  opacity: 1;
+}
